@@ -1,0 +1,60 @@
+/* Define styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    width: 400pt;
+}
+
+/* Style the report container */
+.container {
+    max-width: 600px; /* Adjust the max-width to your preferred smaller width */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Style the report title */
+h1 {
+    color: #333;
+}
+
+/* Style the report date */
+p.date {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style table headers */
+th {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Style table rows */
+tr {
+    background-color: #f2f2f2;
+}
+
+/* Style table data cells */
+td {
+    padding: 8px;
+}
+
+/* Add hover effect to table rows */
+tr:hover {
+    background-color: #ddd;
+}
